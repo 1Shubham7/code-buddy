@@ -9,44 +9,9 @@
     font-weight: 700;
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 1);
     padding-left: 6rem;
-    flex-basis: 60%;
     text-align: left;
 }
 
 .section{
-    padding-top: 9rem;
-    padding-bottom: 19rem;
+    background-image: url('about.png');
 }
-
-.one{
-    background: var(--footer, linear-gradient(135deg, #094863 0%, #000 100%));
-}
-
-.two{
-    background: #B2B2C6;
-}
-
-
-/* making the horizontal division */
-
-.container {
-    display: flex; /* Set the height of the container as needed */
-  }
-  
-
-.sec {
-    display: flex;
-  justify-content: center;
-  flex-direction: row;
-}
-
-.top-text {
-     /* 20% width for Section 1 */
-    /* background-color: #ff6384; */
-  }
-
-.rectange{
-    flex-basis: 40%; /* 40% width for Section 2 */
-    /* background-color: #36a2eb; */
-    color: white;
-  }
