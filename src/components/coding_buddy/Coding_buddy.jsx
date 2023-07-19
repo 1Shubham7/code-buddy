@@ -9,7 +9,7 @@ export default function Coding_buddy() {
     <div className="website-head">
       <div className='image-container'>
         <div className="image-div">
-          <div className="main-text">Heloo</div>
+          <div className="main-text">HELLO</div>
       </div>
       </div>
     </div>

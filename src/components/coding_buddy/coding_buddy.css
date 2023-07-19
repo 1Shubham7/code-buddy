@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+
 /* .website-head {
     border-radius: 1px;
     /* background: linear-gradient(158deg, rgba(4, 10, 32, 0.75) 0%, rgba(19, 103, 139, 0.75) 100%); */
@@ -19,5 +22,13 @@
 }
 
 .main-text {
-    
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    min-height: 100vh;
+    color: #fff;
+    padding-left: 10rem;
+    font-size: 52px;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 1);
+    font-family: Fira Code;
 }
