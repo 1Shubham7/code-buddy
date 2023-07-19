@@ -9,7 +9,7 @@ export default function Coding_buddy() {
     <div className="website-head">
       <div className='image-container'>
         <div className="image-div">
-      <img src={bg_image} alt="pic" className='fit-to-screen' />
+          <div className="main-text">Heloo</div>
       </div>
       </div>
     </div>
