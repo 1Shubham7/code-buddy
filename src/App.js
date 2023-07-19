@@ -1,4 +1,5 @@
 import "./App.css";
+import Navbar from "./components/navbar/Navbar";
 // import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
   return (
     <div className="App">
       hi
+      <Navbar />
     </div>
   );
 }
