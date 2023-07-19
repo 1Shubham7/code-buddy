@@ -10,9 +10,11 @@ a {
     justify-content: space-between;
     align-items: center;
     border-radius: 1px;
-    background: linear-gradient(158deg, rgba(4, 10, 32, 0.75) 0%, rgba(19, 103, 139, 0.75) 100%);
+    /* background: linear-gradient(158deg, rgba(4, 10, 32, 0.75) 0%, rgba(19, 103, 139, 0.75) 100%); */
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     padding: 2rem 6rem;
+    background: linear-gradient(158deg, rgba(4, 10, 32, 0.75) 0%, rgba(19, 103, 139, 0.75) 75%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .navbar-links {
@@ -72,7 +74,7 @@ a {
     background: #1db694;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     font-family: 'Manrope', sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 18px;
     line-height: 25px;
     border: none;
@@ -152,6 +154,10 @@ a {
     }
 
     .navbar-links_container{
-        display: none;
+        /* display: block; */
+    }
+
+    .coding-buddy{
+        display: block;
     }
 }
