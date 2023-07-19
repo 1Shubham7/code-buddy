@@ -14,4 +14,11 @@
 
 .section{
     background-image: url('about.png');
+    background-size: cover;
+    height: 100%;
+}
+
+.container{
+    padding-top: 17rem;
+    padding-bottom: 33rem;
 }
