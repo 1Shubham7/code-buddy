@@ -17,11 +17,15 @@ export default function About() {
         <li>Choose people from same or different skill set</li>
         </ul>
       </div>
-      </div>
 
       <div className="about">
-        <h1>About Us</h1>
+        <h1 className="about-text">About Us</h1>
       </div>
+
+      </div>
+
+
+
       </div>
 
     </>

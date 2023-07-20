@@ -16,7 +16,7 @@
 .section{
     background-image: url('about.png');
     background-size: cover;
-    height: 100%;
+    height: 110vh;
 }
 
 .container{
@@ -33,4 +33,11 @@
 
 .list{
     list-style-type: square;
+}
+
+.about-text {
+    text-align: left;
+    padding-left: 10rem;
+    padding-top: 12rem;
+    color: #0b0628;
 }
