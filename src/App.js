@@ -1,6 +1,6 @@
 import "./App.css";
 // import Navbar from "./components/navbar/Navbar";
-import { Navbar, Coding_buddy, About } from './components'
+import { Navbar, Coding_buddy, About, Me } from './components'
 // import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
       <Navbar />
       <Coding_buddy />
       <About />
+      <Me />
     </div>
   );
 }

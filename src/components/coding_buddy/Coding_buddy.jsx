@@ -53,7 +53,7 @@ const time = isEnd ? 2000: isDeleting ? spedUp : normalSpeed
 setTimeout(loop, time)
 }
 
-loop()
+// loop()
 
 
 

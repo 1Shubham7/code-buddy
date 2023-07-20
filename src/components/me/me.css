@@ -1,0 +1,22 @@
+.segment{
+    background: rgba(0, 0, 0, 0.93);
+    height: 66vh;
+    color: white;
+}
+
+.my-text{
+    font-family: Fira Code;
+font-size: 19px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+background: linear-gradient(166deg, #FAFF00 0%, #F900D2 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.pic{
+    width: 20vh;
+    height: 23vh;
+}
