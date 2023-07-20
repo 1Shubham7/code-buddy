@@ -1,22 +1,40 @@
 .segment{
     background: rgba(0, 0, 0, 0.93);
     height: 66vh;
-    color: white;
+    align-items: center;
+    display: flex;
+    gap: 20px;
 }
 
 .my-text{
     font-family: Fira Code;
-font-size: 19px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-background: linear-gradient(166deg, #FAFF00 0%, #F900D2 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+    background: linear-gradient(166deg, #FAFF00 0%, #F900D2 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    flex-basis: 80%;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 13rem;
+
 }
 
 .pic{
-    width: 20vh;
-    height: 23vh;
+    width: 383px;
+    height: 366px;
+    flex-basis: 20%;
+    padding-right: 8rem;
+}
+
+.love{
+font-size: 40px;
+font-weight: 800;
+}
+
+.name{
+font-size: 40px;
+}
+
+.description{
+font-size: 19px;
 }
