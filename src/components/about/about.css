@@ -10,6 +10,7 @@
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 1);
     padding-left: 6rem;
     text-align: left;
+    margin-top: -6rem;
 }
 
 .section{
@@ -21,4 +22,15 @@
 .container{
     padding-top: 17rem;
     padding-bottom: 33rem;
+}
+
+.points{
+    color: white;
+    text-align: left;
+    padding-left: 6rem;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+}
+
+.list{
+    list-style-type: square;
 }
