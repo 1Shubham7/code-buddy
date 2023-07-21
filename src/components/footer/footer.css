@@ -1,4 +1,27 @@
 .footer{
-    background-image: './Footer.png';
     background-size: cover;
+    height: 373px;
+    background-image: url('Footer.png');
+    /* backgound: lightgray 0px -373.5px / 100% 270.241% no-repeat, rgba(32, 25, 25, 0.64); */
+}
+
+.footer-container{
+    display: flex;
+}
+
+.socials{
+    flex-basis: 30%;
+}
+
+.text-part{
+
+    flex-basis: 70%;
+}
+
+.text-links{
+    display: flex;
+}
+
+.my-text-link{
+    flex-basis: 25%
 }

@@ -17,7 +17,6 @@
 .image-div {
     background-image: url('bg_image.png');
     background-size:cover;
-    width: 99vw;
     height: 130vh;
 }
 
