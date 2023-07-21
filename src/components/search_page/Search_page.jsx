@@ -1,6 +1,5 @@
 import React from 'react'
 import './search_page.css'
-import RecipeReviewCard from './Card.jsx'
 
 export default function Search_page() {
   return (
@@ -19,7 +18,6 @@ export default function Search_page() {
     <button type="submit">Labels</button>
     <button type="submit">Labels</button>
     <div className="cards">
-      <RecipeReviewCard />
     </div>
 
       </div>
