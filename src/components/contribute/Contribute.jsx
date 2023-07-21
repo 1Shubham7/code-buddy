@@ -16,7 +16,7 @@ export default function Contribute() {
           make it possible to our webapp. Even you can contribute 
           to the website and help the community. Contributions are not
            just about code, you can even contribute through documentation, 
-           Graphic designing, and many more ways. To know more about contributing, <a href="https://github.com/1shubham7/coding-buddy">Click here</a></p>
+           Graphic designing, and many more ways. To know more about contributing, <a href="https://github.com/1Shubham7/code-buddy">Click here</a></p>
       </div>
       
     </div>

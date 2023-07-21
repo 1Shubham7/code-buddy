@@ -3,6 +3,8 @@
     height: 373px;
     background-image: url('Footer.png');
     /* backgound: lightgray 0px -373.5px / 100% 270.241% no-repeat, rgba(32, 25, 25, 0.64); */
+    color: #fff;
+
 }
 
 .footer-container{
@@ -14,14 +16,16 @@
 }
 
 .text-part{
-
     flex-basis: 70%;
+    padding-right: 3rem;
+}
+
+.text-para{
+    padding-right: 9rem;
 }
 
 .text-links{
     display: flex;
-}
-
-.my-text-link{
-    flex-basis: 25%
+    flex-direction: row;
+    gap: 7rem;
 }

@@ -10,13 +10,11 @@ export default function Footer() {
       </div>
       <div className="text-part">
         <div className="text-links">
-          <ul>
-            <li className="my-text-link">Licenses</li>
-            <li className="my-text-link">About</li>
-            <li className="my-text-link">Privacy Policy</li>
-            <li className="my-text-link">Blogs</li>
-            <li className="my-text-link">Contribute</li>
-          </ul>
+            <a href="#licenses" className="my-text-link-1">Licenses</a>
+            <a href="#about" className="my-text-link-2">About</a>
+            <a href="#privacy" className="my-text-link">Privacy Policy</a>
+            <a href="#blogs" className="my-text-link">Blogs</a>
+            <a href="#contribute" className="my-text-link">Contribute</a>
         </div>
         <div className="text-para">Coding Buddy - A tool that helps you identify coders who are as passionate as you. Filter out partners according to technology, country, interests etc.</div>
       </div>
