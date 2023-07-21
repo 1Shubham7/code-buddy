@@ -1,3 +1,27 @@
 .section{
     background: var(--card-part, linear-gradient(135deg, #13678B 0%, #040A20 100%));
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+}
+
+.white-rectangle{
+    background-color: #FFF;
+    box-shadow: 15px 15px 8px 0px rgba(0, 0, 0, 0.25);
+    flex-basis: 40%;
+    width: 121px;
+    height: 570px;
+    margin-left: 13rem;
+}
+
+.the-text{
+    color: #fff;
+    flex-basis: 60%;
+    padding-right: 15rem;
+}
+
+.how {
+    font-family: Fira Code;
+    text-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.9);
+    font-size: 34px;
 }
