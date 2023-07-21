@@ -1,4 +1,4 @@
-.section{
+.section-two{
     background: var(--card-part, linear-gradient(135deg, #13678B 0%, #040A20 100%));
     display: flex;
     align-items: center;
@@ -12,12 +12,14 @@
     width: 121px;
     height: 570px;
     margin-left: 13rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 .the-text{
     color: #fff;
     flex-basis: 60%;
-    padding-right: 15rem;
+    padding-right: 13rem;
 }
 
 .how {

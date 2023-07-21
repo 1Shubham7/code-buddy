@@ -3,9 +3,8 @@ import './contribute.css'
 
 export default function Contribute() {
   return (
-    <div className="section">
+    <div className="section-two">
       <div className="white-rectangle">
-
       </div>
       <div className="the-text">
         <h1 className="how">
