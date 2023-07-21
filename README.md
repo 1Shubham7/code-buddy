@@ -6,7 +6,7 @@
 
 Welcome to Code Buddy, a web application created using create-react-app, where you can find your code partner! This readme section provides an overview of the project and instructions on how to set it up and run it locally.
 
-## Table of Contents
+### Table of Contents
 
 - [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
