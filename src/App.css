@@ -39,12 +39,12 @@
   }
 }
 
-// Basic decor
+/* Basic decor */
 
-a {
+/* a {
   color: unset;
   text-decoration: none;
-}
+} */
 
 @media screen and (max-width: 700px) {
   .section__padding {
