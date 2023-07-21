@@ -2,12 +2,24 @@
     background-size: cover;
     height: 373px;
     background-image: url('Footer.png');
-    /* backgound: lightgray 0px -373.5px / 100% 270.241% no-repeat, rgba(32, 25, 25, 0.64); */
     color: #fff;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-one{
+    display: flex;
+}
+
+.row-two{
+    margin-top: 3rem;
 }
 
 .footer-container{
-    display: flex;
+    padding-top: 5rem;
 }
 
 .socials{
@@ -16,15 +28,20 @@
 
 .text-part{
     flex-basis: 70%;
-    padding-right: 3rem;
 }
 
 .text-para{
-    padding-right: 9rem;
+    padding-right: 12rem;
+    padding-top: 1.5rem;
 }
 
 .text-links{
     display: flex;
     flex-direction: row;
     gap: 7rem;
+    font-size: 19px;
+}
+
+.copyright{
+    font-size: 14px;
 }

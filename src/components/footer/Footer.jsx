@@ -3,10 +3,10 @@ import './footer.css'
 
 export default function Footer() {
   return (
-    <div className="footer">
-      <div className="footer-container">
+    <> <div className="footer">
+      <div className="row-one">
       <div className="socials">
-
+        This i
       </div>
       <div className="text-part">
         <div className="text-links">
@@ -16,10 +16,14 @@ export default function Footer() {
             <a href="#blogs" className="my-text-link">Blogs</a>
             <a href="#contribute" className="my-text-link">Contribute</a>
         </div>
-        <div className="text-para">Coding Buddy - A tool that helps you identify coders who are as passionate as you. Filter out partners according to technology, country, interests etc.</div>
+        <div className="text-para">Coding Buddy helps you find your coding partner. This project is created with React and Golang. The code has been open-sourced on GitHub. The project is licensed under MIT License. Using this website means the user agrees to all the terms and contidions and well as the Privacy Policy of the project.</div>
       </div>
       </div>
+      <div className="row-two">
       <h1 className="copyright">© 2023 All Rights Reserved</h1>
+      </div>
     </div>
+    
+    </>
   )
 }
