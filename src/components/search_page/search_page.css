@@ -3,5 +3,9 @@
 }
 
 .search-bar{
-    
+
+}
+
+.labels{
+    display: flex;
 }
