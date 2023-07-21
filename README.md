@@ -1,7 +1,8 @@
-# Code Buddy
-Sure! Here's the updated README section for the project:
-
 # Code Buddy - Find Your Code Partner
+
+[![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Version 1.0.0](https://img.shields.io/badge/Version-1.0.0-brightgreen.svg)](https://github.com/1Shubham7/code-buddy/pulls)
+[![PR:s Welcome](https://img.shields.io/badge/PR:s-Welcome-brightgreen.svg)](https://github.com/1Shubham7/code-buddy/pulls)
 
 Welcome to Code Buddy, a web application created using create-react-app, where you can find your code partner! This readme section provides an overview of the project and instructions on how to set it up and run it locally.
 
