@@ -12,11 +12,11 @@ export default function Search_page() {
       />
     </div>
     <div className="labels"></div>
-    <button type="submit">Labels</button>
-    <button type="submit">Labels</button>
-    <button type="submit">Labels</button>
-    <button type="submit">Labels</button>
-    <button type="submit">Labels</button>
+    <button type="submit" >Labels</button>
+    <button type="submit" className="label-tags">Labels</button>
+    <button type="submit" className="label-tags">Labels</button>
+    <button type="submit" className="label-tags">Labels</button>
+    <button type="submit" className="label-tags">Labels</button>
     <div className="cards">
     </div>
 
