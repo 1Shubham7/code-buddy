@@ -85,6 +85,10 @@ We welcome contributions from the community! If you'd like to contribute to Code
 
 Our team will review your pull request, provide feedback, and, if everything looks good, merge it into the main codebase.
 
+## Socials
+
+[![LinkedIn][LinkedIn-Badge]](https://www.linkedin.com/in/shubham-singh-5a002b20b/) [![Hashnode][Hashnode-Badge]](https://1shubham7.hashnode.dev/) [![Twitter][Twitter-Badge]](https://twitter.com/1shubham7) [![YouTube][YouTube-Badge]](https://youtube.com/@shubham7950) [![StackOverflow][StackOverflow-Badge]](https://stackoverflow.com/users/21861794)
+
 ## License
 
 Code Buddy is open-source software licensed under the [MIT License](LICENSE).
@@ -92,3 +96,11 @@ Code Buddy is open-source software licensed under the [MIT License](LICENSE).
 ---
 
 Thank you for your interest in Code Buddy! If you have any questions, suggestions, or encounter any issues, feel free to reach out or open an issue on the GitHub repository. Happy coding!
+
+<!-- Markdown Badges and Links -->
+
+[Hashnode-Badge]: https://img.shields.io/badge/Hashnode-2962FF?style=for-the-badge&logo=hashnode&logoColor=white
+[LinkedIn-Badge]: https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
+[StackOverflow-Badge]: https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white
+[Twitter-Badge]: https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white
+[YouTube-Badge]: https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white
