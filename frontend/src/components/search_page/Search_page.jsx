@@ -5,19 +5,21 @@ export default function Search_page() {
   return (
     <>
     <div className="page-section">
-    <div className="search-bar">
+    <div className="search-bar-holder">
     <input
         type="text"
         placeholder="Search..."
+        className='search-bar'
       />
     </div>
     <div className="labels"></div>
-    <button type="submit" >Labels</button>
-    <button type="submit" className="label-tags">Labels</button>
-    <button type="submit" className="label-tags">Labels</button>
-    <button type="submit" className="label-tags">Labels</button>
-    <button type="submit" className="label-tags">Labels</button>
-    <div className="cards">
+    <button type="submit" >Filter By</button>
+    <button type="submit" className="label-tags">Technologies</button>
+    <button type="submit" className="label-tags">Conutries</button>
+    <button type="submit" className="label-tags">Interests</button>
+    <button type="submit" className="label-tags">Experience</button>
+    <div className="cards-holder">
+      <div className="cards"></div>
     </div>
 
       </div>

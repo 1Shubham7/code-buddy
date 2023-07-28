@@ -3,9 +3,28 @@
 }
 
 .search-bar{
-
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 50vw;
+    height: 4vh;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
 }
 
 .labels{
     display: flex;
+}
+
+.cards-holder{
+    border: 3px solid #FFF;
+    background: #2A989F;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: flex;
+    margin-top: 3rem;
+    /* margin-bottom: 3rem; */
+
 }
