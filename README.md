@@ -1,6 +1,6 @@
 # Code Buddy - Find Your Code Partner
 
-[![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
 [![Version 1.0.0](https://img.shields.io/badge/Version-1.0.0-brightgreen.svg)](https://github.com/1Shubham7/code-buddy/pulls)
 [![PR:s Welcome](https://img.shields.io/badge/PR:s-Welcome-brightgreen.svg)](https://github.com/1Shubham7/code-buddy/pulls)
 
@@ -91,7 +91,7 @@ Our team will review your pull request, provide feedback, and, if everything loo
 
 ## License
 
-Code Buddy is open-source software licensed under the [MIT License](LICENSE).
+Code Buddy is open-source software licensed under the [MIT License](LICENSE.md).
 
 ---
 
