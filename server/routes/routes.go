@@ -10,6 +10,7 @@ import (
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"github.com/go-playground/validator/v10"
+	"go.mongodb.org/mongo-driver/bson"
 )
 
 var validate = validate.New()
@@ -40,4 +41,26 @@ func AddCoder(c *gin.Context) {
 	}
 	defer cancel()
 	c.JSON(http.StatusOK, result)
+}
+
+func GetCoders(c *gin.Context) {
+	var ctx, cancel = context.WithTimeout(context.Background(), 100*time.Second)
+
+	var coders []bson.M
+	cursor, err := coderCollection.Find(ctx, bson.M{})
+
+	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+		fmt.Println(err)
+		return
+	}
+
+	if err = cursor.All(ctx, &coders); err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+		fmt.Println(err)
+		return
+	}
+	defer cancel()
+	fmt.Println(coders)
+	c.JSON(http.StatusOK, coders)
 }
