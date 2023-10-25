@@ -64,3 +64,21 @@ func GetCoders(c *gin.Context) {
 	fmt.Println(coders)
 	c.JSON(http.StatusOK, coders)
 }
+
+func GetCoderById(c *gin.Context){
+
+	CoderID := c.Params.ByName("id")
+	docID, _ := primitive.ObjectIDFromHex(CoderID)
+
+	var ctx, cancel = context.WithTimeout(context.Background(), 100*time.Second)
+	var coder bson.M
+	if err := coderCollection.FindOne(ctx, bson.M{"_id": docID}).Decode(&coder); err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+		fmt.Println(err)
+		return
+	}
+	defer cancel()
+	fmt.Println(coder)
+	c.JSON(http.StatusOK, coder)
+
+}

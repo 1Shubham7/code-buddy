@@ -13,7 +13,7 @@ func main(){
 	r.Use(cors.Default())
 	
 	r.GET("/coder/:id", routes.GetCoders)
-	r.GET("/coders", routes.GetCoder)
+	r.GET("/coders", routes.GetCoderById)
 
 	r.POST("/coder/add", routes.PostCoders)
 
