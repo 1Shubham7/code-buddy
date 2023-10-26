@@ -117,3 +117,21 @@ func UpdateCoder(c *gin.Context) {
 	c.JSON(http.StatusOK, result.ModifiedCount)
 
 }
+
+func DeleteEntry(c *gin.Context) {
+	coderID := c.Params.ByName("id")
+	docID, _ := primitive.ObjectIDFromHex(coderID)
+
+	var ctx, cancel = context.WithTimeout(context.Background(), 100*time.Second)
+
+	result, err := coderCollection.DeleteOne(ctx, bson.M{"_id": docID})
+
+	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+		fmt.Println(err)
+		return
+	}
+
+	defer cancel()
+	c.JSON(http.StatusOK, result.DeletedCount)
+}
