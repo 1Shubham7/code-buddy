@@ -80,5 +80,40 @@ func GetCoderById(c *gin.Context){
 	defer cancel()
 	fmt.Println(coder)
 	c.JSON(http.StatusOK, coder)
+}
+
+func UpdateCoder(c *gin.Context) {
+	coderID := c.Params.ByName("id")
+	docID, _ := primitive.ObjectIDFromHex(coderID)
+	var ctx, cancel = context.WithTimeout(context.Background(), 100*time.Second)
+	var coder models.Coder
+
+	if err := c.BindJSON(&coder); err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+		fmt.Println(err)
+		return
+	}
+
+	validationErr := validate.Struct(coder)
+	if validationErr != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"error": validationErr.Error()})
+		fmt.Println(validationErr)
+		return
+	}
+
+	result, err := coderCollection.ReplaceOne(
+		ctx,
+		bson.M{"_id": docID},
+		bson.M{
+			"name":        coder.Name,
+		},
+	)
+	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+		fmt.Println(err)
+		return
+	}
+	defer cancel()
+	c.JSON(http.StatusOK, result.ModifiedCount)
 
 }
