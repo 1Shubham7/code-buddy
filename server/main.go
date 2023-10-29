@@ -2,9 +2,8 @@ package main
 
 import (
 	"github.com/1shubham7/code-buddy/routes"
-	"github.com/gin-gonic/cors"
+	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
-	"net/http"
 )
 
 func main(){
@@ -15,9 +14,9 @@ func main(){
 	r.GET("/coder/:id", routes.GetCoders)
 	r.GET("/coders", routes.GetCoderById)
 
-	r.POST("/coder/add", routes.PostCoders)
+	r.POST("/coder/add", routes.AddCoder)
 
-	r.PUT("/coder/update/:id", routes.PutCoders)
+	r.PUT("/coder/update/:id", routes.UpdateCoder)
 	
 	r.DELETE("coder/delete/:id", routes.DeleteCoder)
 

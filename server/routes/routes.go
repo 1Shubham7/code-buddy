@@ -115,10 +115,9 @@ func UpdateCoder(c *gin.Context) {
 	}
 	defer cancel()
 	c.JSON(http.StatusOK, result.ModifiedCount)
-
 }
 
-func DeleteEntry(c *gin.Context) {
+func DeleteCoder(c *gin.Context) {
 	coderID := c.Params.ByName("id")
 	docID, _ := primitive.ObjectIDFromHex(coderID)
 
