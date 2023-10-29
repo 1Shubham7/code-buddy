@@ -4,7 +4,7 @@ import axios from "axios"
 
 import Coder from './CoderCard.jsx';
 
-const Coders=()=>{
+const Coders =() =>{
     const [coders, setCoders] = useState([])
     const [refreshData, setRefreshData] = useState(false)
 
@@ -19,23 +19,26 @@ const Coders=()=>{
 
     return (
         <>
+        
+        <h1>Good boy</h1>
         {coders != null && coders.map((coder, i) => (
-        <Coder coderData={coder}></Coder>
+        <Coder coderData={coder} />
         ))}
 
         </>
     );
 
     function getAllCoders(){
-        var url = "http://localhost/1111/coders"
+        var url = "http://localhost:1111/coders";
         axios.get(url, {
-            responseType: 'json',
-        }).then(response=>{
-            if(response.status == 200){
-                setCoders(response.data)
+            responseType: 'json'
+        }).then(response => {
+            console.log("Response from the server:", response);
+            if (response.status == 200) {
+                setCoders(response.data);
             }
         })
-        }
-    
+    }    
 }
+
 export default Coders

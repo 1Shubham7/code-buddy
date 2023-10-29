@@ -8,7 +8,7 @@ All sorts of contributions to the project are welcomed be it code contributions,
 
 - Be respectful to your fellow contributors and project maintainers
 - Be patient, while your PRs might take time to be reviewed. The project maintainers give time to the project from their busy schedule so some times the PR review might get delayed.
-- Make sure to not use any foul language during a conversation with fellow contributors or project manitainers
+- Make sure to not use any foul language during a conversation with fellow contributors or project maintainers
 
 # Testing the backend API
 
