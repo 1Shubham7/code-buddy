@@ -1,9 +1,13 @@
 import React from 'react'
 
-export default function CoderCard() {
+
+const Coder  = ({coderData})=>{
+
   return (
-    <div>
-      <h1></h1>
-    </div>
+    <>
+    <h1>Name: {coderData!==undefined && coderData.name</h1>
+    </>
   )
 }
+
+export default Coder
