@@ -11,8 +11,8 @@ func main(){
 	r.Use(gin.Logger())
 	r.Use(cors.Default())
 	
-	r.GET("/coder/:id", routes.GetCoders)
-	r.GET("/coders", routes.GetCoderById)
+	r.GET("/coder/:id", routes.GetCoderById)
+	r.GET("/coders", routes.GetCoders)
 
 	r.POST("/coder/add", routes.AddCoder)
 

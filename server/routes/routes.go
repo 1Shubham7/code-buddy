@@ -13,7 +13,7 @@ import (
 	"go.mongodb.org/mongo-driver/bson"
 )
 
-var validate = validate.New()
+var validate = validator.New()
 var coderCollection *mongo.Collection = OpenCollection(Client, "coder")
 
 func AddCoder(c *gin.Context) {
