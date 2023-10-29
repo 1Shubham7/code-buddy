@@ -2,16 +2,29 @@ import React, {useState, useEffect} from 'react'
 
 import axios from "axios"
 
-import Coder from './CoderCard';
+import Coder from './CoderCard.jsx';
 
 const Coders=()=>{
-    // const 
+    const [coders, setCoders] = useState([])
+    const [refreshData, setRefreshData] = useState(false)
+
+    useEffect(() => {
+        getAllCoders();
+    }, [])
+
+    if(refreshData){
+        setRefreshData(false);
+        getAllCoders();
+    }
 
     return (
         <>
+        {coders != null && coders.map((coder, i) => (
         <Coder coderData={coder}></Coder>
+        ))}
+
         </>
-    )
+    );
 
     function getAllCoders(){
         var url = "http://localhost/1111/coders"
@@ -19,10 +32,10 @@ const Coders=()=>{
             responseType: 'json',
         }).then(response=>{
             if(response.status == 200){
-                setEntries(response.data)
+                setCoders(response.data)
             }
         })
         }
-    }
+    
 }
 export default Coders
