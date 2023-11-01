@@ -22,7 +22,6 @@ const Coders =() =>{
         {coders != null && coders.map((coder, i) => (
         <Coder coderData={coder} />
         ))}
-
         </>
     );
 

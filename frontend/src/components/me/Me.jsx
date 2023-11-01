@@ -10,10 +10,7 @@ export default function Me() {
       <div className="my-text">
         <p className="love">Made with Love by</p>
         <p className="name">Shubham Singh|</p>
-        <p className="description">GSSoC'23 | Web Dev | Dev Ops | Android dev |
-           Open-source Enthusiast | Technical Writer |
-            Postman Student Expert | First year Undergrad 
-            (Computer Science Eng.)</p>
+        <p className="description">Technical writing intern @GeeksforGeeks | Contributor - CNCF ORAS | Ex-Hugo Intern @Hooman Digital | GSSoC'23 Top 100 | CNCF Zero to Merge | Web Dev | Dev Ops | Postman-API Student Expert | Second year Undergrad (CSE)</p>
       
       </div>
     <img src={myPic} alt="hi" className="pic"/>
