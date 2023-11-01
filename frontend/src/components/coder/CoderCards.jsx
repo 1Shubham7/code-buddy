@@ -19,8 +19,6 @@ const Coders =() =>{
 
     return (
         <>
-        
-        <h1>Good boy</h1>
         {coders != null && coders.map((coder, i) => (
         <Coder coderData={coder} />
         ))}
