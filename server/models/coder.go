@@ -8,6 +8,6 @@ type Coder struct{
 	ID primitive.ObjectID `bson:"id"`
 	Name *string	`json:name`
 	Intro *string	`json:intro`
-	GithubID *string	`json:github_id`
+	GithubID *string	`json:github`
 	Location *string	`json:location`
 }
