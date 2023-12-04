@@ -8,13 +8,17 @@ Welcome to Code Buddy, a web application created using create-react-app, where y
 
 ### Table of Contents
 
-- [Introduction](#introduction)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Running the App](#running-the-app)
-- [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
+- [Code Buddy - Find Your Code Partner](#code-buddy---find-your-code-partner)
+    - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running the App](#running-the-app)
+  - [Features](#features)
+  - [Contributing](#contributing)
+  - [Contributers](#contributers)
+  - [Socials](#socials)
+  - [License](#license)
 
 ## Introduction
 
@@ -101,6 +105,9 @@ Shivam Kumar"/><br /><sub><b>
 Shivam Kumar</b></sub></a</td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/anubhav1206"><img src="https://avatars.githubusercontent.com/u/53504460" width="100px;" alt="Anubhav Adhikari"/><br /><sub><b>Anubhav Adhikari</b></sub></a</td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/andrewmuhn"><img src="https://avatars.githubusercontent.com/u/120216208" width="100px;" alt="Andrew Muhn"/><br /><sub><b>Andrew Muhn</b></sub></a</td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/cl1ckname"><img src="https://avatars.githubusercontent.com/u/42579207" width="100px;" alt="Ivan Vasilev"/><br /><sub><b>Ivan Vasilev</b></sub></a</td>
     </tr>
   </tbody>
 </table>
