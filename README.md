@@ -85,6 +85,26 @@ We welcome contributions from the community! If you'd like to contribute to Code
 
 Our team will review your pull request, provide feedback, and, if everything looks good, merge it into the main codebase.
 
+## Contributers
+Thanks go to these wonderful people
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/1Shubham7"><img src="https://avatars.githubusercontent.com/u/116020663" width="100px;" alt="Shubham Singh"/><br /><sub><b>Shubham Singh</b></sub></a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/made-in-india"><img src="https://avatars.githubusercontent.com/u/134129154" width="100px;" alt="
+made-in-india"/><br /><sub><b>
+made-in-india</b></sub></a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/viktoriussuwandi"><img src="https://avatars.githubusercontent.com/u/68414300" width="100px;" alt="Viktorius Suwandi"/><br /><sub><b>Viktorius Suwandi</b></sub></a</td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/nikohoffren"><img src="https://avatars.githubusercontent.com/u/82566656" width="100px;" alt="Niko Hoffrén"/><br /><sub><b>Niko Hoffrén</b></sub></a</td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/shivam0277"><img src="https://avatars.githubusercontent.com/u/114799765" width="100px;" alt="
+Shivam Kumar"/><br /><sub><b>
+Shivam Kumar</b></sub></a</td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/anubhav1206"><img src="https://avatars.githubusercontent.com/u/53504460" width="100px;" alt="Anubhav Adhikari"/><br /><sub><b>Anubhav Adhikari</b></sub></a</td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/andrewmuhn"><img src="https://avatars.githubusercontent.com/u/120216208" width="100px;" alt="Andrew Muhn"/><br /><sub><b>Andrew Muhn</b></sub></a</td>
+    </tr>
+  </tbody>
+</table>
+
 ## Socials
 
 [![LinkedIn][LinkedIn-Badge]](https://www.linkedin.com/in/shubham-singh-5a002b20b/) [![Hashnode][Hashnode-Badge]](https://1shubham7.hashnode.dev/) [![Twitter][Twitter-Badge]](https://twitter.com/1shubham7) [![YouTube][YouTube-Badge]](https://youtube.com/@shubham7950) [![StackOverflow][StackOverflow-Badge]](https://stackoverflow.com/users/21861794)
