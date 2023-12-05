@@ -3,7 +3,7 @@
 a {
     color: unset;
     text-decoration: none;
-  }
+}
 
 .navbar {
     display: flex;
@@ -39,8 +39,8 @@ a {
     flex-direction: row;
 }
 
-.coding-buddy{
-    padding-right: 500px;
+.coding-buddy {
+    margin-right: 50px;
 }
 
 .navbar-sign {
@@ -53,7 +53,7 @@ a {
 .navbar-sign p,
 .navbar-menu_container p {
     color: white;
-    font-family:'Manrope', sans-serif;
+    font-family: 'Manrope', sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 25px;
@@ -63,7 +63,7 @@ a {
     padding-top: 0.5rem;
 }
 
-.coding-buddy{
+.coding-buddy {
     font-size: 30px;
     font-weight: bolder;
 }
@@ -100,7 +100,7 @@ a {
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
-    
+
     text-align: end;
     background: var(--color-footer);
     padding: 2rem;
@@ -110,7 +110,7 @@ a {
     margin-top: 1rem;
     min-width: 210px;
     border-radius: 5px;
-    box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
 
 .navbar-menu_container p {
@@ -154,11 +154,11 @@ a {
         display: block;
     }
 
-    .navbar-links_container{
+    .navbar-links_container {
         /* display: block; */
     }
 
-    .coding-buddy{
+    .coding-buddy {
         display: block;
     }
 }
