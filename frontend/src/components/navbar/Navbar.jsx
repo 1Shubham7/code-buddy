@@ -9,8 +9,8 @@ export default function Navbar() {
   return (
     <div className="navbar">
       <div className="navbar-links">
+        <div className="coding-buddy"><a href="#home">Coding Buddy</a></div>
         <div className="navbar-links_container">
-          <div className="coding-buddy"><a href="#home">Coding Buddy</a></div>
           <p><a href="#facb">Find a Coding Buddy</a></p>
           <p><a href="#about">About</a></p>
           <p><a href="#community">Community</a></p>
