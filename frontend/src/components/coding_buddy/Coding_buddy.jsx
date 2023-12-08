@@ -1,73 +1,56 @@
-import React from 'react'
-import './coding_buddy.css'
-// import bg_image from './bg_image.png';
-
+import React, { useState, useEffect } from 'react';
+import './coding_buddy.css';
 
 export default function Coding_buddy() {
-const textDisplay = document.getElementById('tt');
-const phrases = ["Find you Coding Buddy", "Participate in Hackathons, Competitions and events together", "Build projects together and get hired"];
+  const [dynamicText, setDynamicText] = useState('');
+  const phrases = ["Find your Coding Buddy", "Participate in Hackathons, Competitions and events together", "Build projects together and get hired"];
 
-let i=0
-let j=0
-let currentPhrase = []
-let isDeleting = false
-let isEnd = false
+  useEffect(() => {
+    let i = 0;
+    let j = 0;
+    let isDeleting = false;
 
-const loop = ()=> {
+    const loop = () => {
+      setDynamicText((prevText) => {
+        const currentPhrase = phrases[i];
+        let newText = isDeleting
+          ? currentPhrase.substring(0, j - 1)
+          : currentPhrase.substring(0, j + 1);
 
- isEnd =  false
-  textDisplay.innerHTML = currentPhrase.join('')
+        j = isDeleting ? j - 1 : j + 1;
 
-  if (i<phrases.length) {
-  if (!isDeleting && j <= phrases[i].length){
-    currentPhrase.push(phrases[i][j])
-    j++
-    textDisplay.innerHTML = currentPhrase.join('')
-  }
+        if (isDeleting && j === 0) {
+          isDeleting = false;
+          i = (i + 1) % phrases.length;
+        }
 
-  if (isDeleting  && j<= phrases[i].length){
-    currentPhrase.pop(phrases[i][j])
-    j--
-    textDisplay.innerHTML = currentPhrase.join('')
-  }
+        if (!isDeleting && j === currentPhrase.length + 1) {
+          isDeleting = true;
+        }
 
+        return newText;
+      });
 
-  if (j === phrases[i].length){
-    isEnd = true
-    isDeleting = true
-  }
+      const speed = isDeleting ? 50 : 150;
 
-  if (isDeleting && j === 0) {
-    currentPhrase = []
-    isDeleting = false
-    i++
+      setTimeout(loop, speed);
+    };
 
-    if (i=== phrases.length){
-      i=0
-    }
-  }
-}
-const spedUp = Math.random() * (80-50) + 50
-const normalSpeed = Math.random() * (300-200) + 200
-const time = isEnd ? 2000: isDeleting ? spedUp : normalSpeed
-setTimeout(loop, time)
-}
-
-// loop()
-
-
+    loop();
+  }, []);
 
   return (
-
-
     <div className="website-head">
-      <div className='image-container'>
+      <div className="image-container">
         <div className="image-div">
-          <div className="main-text" >
-            <p id="tt"></p>
+          <div className="main-text">
+            <p id="tt">
+              {dynamicText}
+              <span className="fake-cursor">|</span>
+            </p>
           </div>
-      </div>
+        </div>
       </div>
     </div>
-  )
+  );
 }
