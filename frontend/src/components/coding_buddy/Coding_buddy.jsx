@@ -3,16 +3,7 @@ import './coding_buddy.css';
 
 export default function Coding_buddy() {
   const [dynamicText, setDynamicText] = useState('');
-  const phrases = [
-    'stay productive',
-    'socialize',
-    'improve',
-    'decide',
-    'brainstorm',
-    'learn',
-    'grow',
-    'create'
-  ];
+  const phrases = ["Find your Coding Buddy", "Participate in Hackathons, Competitions and events together", "Build projects together and get hired"];
 
   useEffect(() => {
     let i = 0;
@@ -54,7 +45,7 @@ export default function Coding_buddy() {
         <div className="image-div">
           <div className="main-text">
             <p id="tt">
-              Friends help you <span id="dynamic-text">{dynamicText}</span>
+              {dynamicText}
               <span className="fake-cursor">|</span>
             </p>
           </div>
