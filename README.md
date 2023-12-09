@@ -116,6 +116,9 @@ Shivam Kumar</b></sub></a</td>
 
 [![LinkedIn][LinkedIn-Badge]](https://www.linkedin.com/in/shubham-singh-5a002b20b/) [![Hashnode][Hashnode-Badge]](https://1shubham7.hashnode.dev/) [![Twitter][Twitter-Badge]](https://twitter.com/1shubham7) [![YouTube][YouTube-Badge]](https://youtube.com/@shubham7950) [![StackOverflow][StackOverflow-Badge]](https://stackoverflow.com/users/21861794)
 
+## Colaboration
+![Screenshot 2023-12-09 144814](https://github.com/shivanshsin0203/code-buddy/assets/139235773/4b8b073a-4456-4da8-8b9f-19ad542ae6db)
+
 ## License
 
 Code Buddy is open-source software licensed under the [MIT License](LICENSE.md).
