@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './coding_buddy.css';
 
-export default function Coding_buddy() {
+export default function Codingbuddy() {
   const [dynamicText, setDynamicText] = useState('');
   const phrases = ["Find your Coding Buddy", "Participate in Hackathons, Competitions and events together", "Build projects together and get hired"];
 

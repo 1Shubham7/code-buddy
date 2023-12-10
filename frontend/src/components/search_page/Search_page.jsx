@@ -2,7 +2,7 @@ import React from 'react'
 import './search_page.css'
 import Coders from '../coder/CoderCards'
 
-export default function Search_page() {
+export default function Searchpage() {
   return (
     <>
     <div className="page-section">

@@ -7,25 +7,42 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: max-content;
 }
 
 .row-one{
     display: flex;
+    width: 95%;
+    /* gap: 20px; */
 }
 
 .row-two{
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
+    padding-bottom: 25px;
 }
 
 .footer-container{
     padding-top: 5rem;
 }
-
+.logo_social{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+}
+.codingbuddy_logo{
+    padding: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 800;
+   
+    font-size: 30px;
+}
 .socials{
     flex-basis: 30%;
     display: flex;
     gap: 0.7rem;
-    padding-left: 7rem;
+    /* padding-left: 7rem; */
     align-items: center;
 }
 
@@ -39,21 +56,29 @@
 
 .text-part{
     flex-basis: 70%;
-    padding-top: 1rem;;
+    padding: 3rem;
 }
 
 .text-para{
-    padding-right: 12rem;
-    padding-top: 1.5rem;
+    /* padding-right: 12rem;
+    padding-top: 1.5rem; */
+    padding: 2.5rem;
+    font-size: 20px;
 }
 
 .text-links{
     display: flex;
     flex-direction: row;
-    gap: 7rem;
-    font-size: 19px;
+    /* gap: 7rem; */
+    font-size: 25px;
+    justify-content: space-between;
 }
 
+.row-two{
+    border-top: 1px solid #ccc;
+    width: 90%;
+    text-align: center;
+}
 .copyright{
     font-size: 14px;
 }
@@ -72,5 +97,44 @@
     width:0;
     background:#c4c4f7;
     transition:all .5
+  }
+  @media screen and (max-width:1100px){
+    .text-links{
+        font-size: 20px;
+    }
+    .text-para{
+        font-size: 15px;
+    }
+  }
+  @media screen and (max-width:950px) {
+    .row-one{
+        flex-direction: column-reverse;
+    }
+    .text-links{
+        font-size: 25px;
+    }
+    .text-para{
+        font-size: 20px;
+        padding-bottom: 0px;
+    }
+  }
+  @media screen and (max-width:700px) {
+    .text-part{
+        display: flex;
+        justify-content: space-between;
+    }
+    .text-links{
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 39%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .text-para{
+        padding: 0px;
+        width: 45%;
+    }
   }
   
