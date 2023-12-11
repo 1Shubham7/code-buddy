@@ -108,6 +108,7 @@ Shivam Kumar</b></sub></a</td>
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/cl1ckname"><img src="https://avatars.githubusercontent.com/u/42579207" width="100px;" alt="Ivan Vasilev"/><br /><sub><b>Ivan Vasilev</b></sub></a</td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Sumandalai"><img src="https://avatars.githubusercontent.com/u/123189815?s=400&v=4" width="100px;" alt="Suman Dalai"/><br /><sub><b>Suman Dalai</b></sub></a</td>
     </tr>
   </tbody>
 </table>
