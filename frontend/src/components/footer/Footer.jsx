@@ -8,12 +8,17 @@ export default function Footer() {
     <> 
     <div className="footer">
       <div className="row-one">
-      <div className="socials">
+      <div className="logo_social">
+        <div className="codingbuddy_logo">
+           Coding Buddy
+        </div>
+        <div className="socials">
         <div className="social-logo"><SocialIcon url="https://twitter.com/1shubham7" /></div>
         <div className="social-logo"><SocialIcon url="https://github.com/1shubham7" /></div>
         <div className="social-logo"><SocialIcon url="https://www.linkedin.com/in/shubham-singh-5a002b20b/" /></div>
         <div className="social-logo"><SocialIcon url="https://hashnode.com/@1shubham7" bgColor="#ffffff" /></div>
         <div className="social-logo"><SocialIcon url="https://chat.whatsapp.com/K0K0ktvmtJDC6E1t20klDp" /></div>
+      </div>
       </div>
       <div className="text-part">
         <div className="text-links">
