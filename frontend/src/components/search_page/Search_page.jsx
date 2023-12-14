@@ -17,7 +17,7 @@ export default function Search_page() {
     </div>
     <div className="extra-buttons">
     <div className="labels"></div>
-    <button type="submit" >Filter By</button>
+    <button type="submit" id='filter'>Filter By</button>
     <button type="submit" className="label-tags">Technologies</button>
     <button type="submit" className="label-tags">Countries</button>
     <button type="submit" className="label-tags">Interests</button>
