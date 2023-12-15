@@ -43,3 +43,29 @@
 .cards-holder{
     
 }
+
+.label-tags{
+    background-color: #009be9;
+    color: #040A20;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    border: none;
+    margin-left: 0.5rem;   
+    cursor: pointer;
+}
+
+.label-tags:hover{
+    color: #009be9;
+    background-color: #040A20;
+}
+
+#filter{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: transparent;
+    margin-right: 0.5rem;
+    font-size: 1.2rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
