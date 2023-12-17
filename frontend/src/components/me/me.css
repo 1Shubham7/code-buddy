@@ -1,9 +1,15 @@
+.me_section{
+    background-color: black;
+    padding: 5rem;
+}
 .segment{
     background: rgba(0, 0, 0, 0.93);
-    height: 66vh;
+    height: max-content;
     align-items: center;
     display: flex;
     gap: 20px;
+    width: 90%;
+    margin: auto;
 }
 
 .my-text{
@@ -12,18 +18,19 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    flex-basis: 80%;
+    /* flex-basis: 80%; */
     font-weight: 600;
     text-align: left;
-    padding-left: 13rem;
+    padding: 2rem;
+    width: 60%;
 
 }
-
+.image_part{
+    width: 40%;
+}
 .pic{
-    width: 383px;
-    height: 366px;
-    flex-basis: 20%;
-    padding-right: 8rem;
+    width: 100%;
+    height: 100%;
 }
 
 .love{
@@ -37,4 +44,59 @@ font-size: 40px;
 
 .description{
 font-size: 19px;
+}
+@media screen and (max-width:1024px){
+    .me_section{
+        padding: 2rem;
+    }
+}
+@media screen and (max-width:920px){
+    .love{
+        font-size: 30px;
+        margin: 0;
+        padding-bottom: 7px;
+    }
+    .name{
+        font-size: 30px;
+        margin: 0;
+    }
+}
+@media screen and (max-width:730px){
+    .my-text{
+        padding: 0;
+    }
+}
+@media screen and (max-width:655px){
+    .segment{
+        flex-direction: column-reverse;
+    }
+    .my-text{
+        width: 90%;
+        text-align: center;
+    }
+}
+@media screen and (max-width:430px){
+    .me_section{
+        padding: 1rem;
+    }
+}
+@media screen and (max-width:360px){
+    .love{
+        font-size: 25px;
+    }
+    .name{
+        font-size: 25px;
+    }
+    .description{
+        font-size: 17px;
+    }
+    .segment{
+        gap: 5px;
+    }
+    .me_section{
+        padding: 0.5rem;
+    }
+    .my-text{
+        width: 100%;
+    }
 }
