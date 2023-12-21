@@ -1,22 +1,32 @@
 // import "./App.css";
 // import Navbar from "./components/navbar/Navbar";
-import { Navbar, Coding_buddy, About, Me, Contribute, Footer, Search_page } from './components'
+import {
+	Navbar,
+	Coding_buddy,
+	About,
+	Me,
+	Contribute,
+	Footer,
+	Search_page,
+} from "./components";
+import ScrollRevealComponent from "./ScrollRevealComponent";
+import React from "react";
 // import {Coders} from "./components/coder/CoderCards"
 // import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 function App() {
-
-  return (
-    <div className="App">
-      <Navbar />
-      <Coding_buddy />
-      <About />
-      <Search_page />
-      <Me />
-      <Contribute />
-      <Footer />
-    </div>
-  );
+	return (
+		<div className="App">
+			<Navbar />
+			<Coding_buddy />
+			<About />
+			<Search_page />
+			<Me />
+			<Contribute />
+			<Footer />
+			<ScrollRevealComponent />
+		</div>
+	);
 }
 
 export default App;
