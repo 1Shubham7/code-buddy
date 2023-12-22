@@ -12,3 +12,13 @@
 .coder-sec{
     padding-bottom: 2rem;
 }
+
+@media screen and (max-width: 768px) {
+    .coder-name {
+        font-size: 1.5rem; 
+    }
+
+    .coder-sec {
+        padding-bottom: 1rem;
+    }
+}
