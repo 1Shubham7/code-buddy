@@ -42,7 +42,7 @@ Before getting started, make sure you have the following prerequisites installed
 2. Change into the project directory:
 
    ```bash
-   cd code-buddy
+   cd code-buddy/frontend
    ```
 
 3. Install the required dependencies using npm:
